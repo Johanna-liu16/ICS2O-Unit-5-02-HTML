@@ -4,29 +4,29 @@
 // Created on: Mar 2022
 // This file contains the JS functions for index.html
 
+;("use strict")
+
 /**
  * Check servie worker.
  */
 if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/ICS2O-PWA-Test/sw.js", {
-    scope: "/ICS2O-PWA-Test/",
+  navigator.serviceWorker.register("/ICS2O-Unit-5-01/sw.js", {
+    scope: "/ICS2O-Unit-5-01/",
   })
 }
 
-;("use strict")
 /**
- * This function calculates area of a parrallelogram.
+ * This function compares slider with random number.
  */
-function calculate() {
-  // input
-  const length = parseInt(document.getElementById("length-of-pyramid").value)
-  const width = parseInt(document.getElementById("width-of-pyramid").value)
-  const height = parseInt(document.getElementById("height-of-pyramid").value)
-
+function myButtonClicked() {
+  const userInteger = prompt("Enter an integer: ")
+  
   // process
-  const volume = (length * width * height) / 3
-
-  // output
-  document.getElementById("answers").innerHTML =
-    "Volume is: " + volume.toFixed(2) + " cm³"
+  if (userInteger < 0) {
+    document.getElementById("answers").innerHTML =
+      "Integer is a negative number."
+  } else (userInteger > 0) {
+    document.getElementById("answers").innerHTML =
+      "Integer is a positive number."
+  }
 }
