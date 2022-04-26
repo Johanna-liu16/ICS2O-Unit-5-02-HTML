@@ -1,7 +1,7 @@
-# ICS2O-UnitX
+# ICS2O-Unit-5-02-HTML
 
-[![GitHub's Super Linter](https://github.com/Johanna-liu16/ICS2O-UnitX/workflows/GitHub's%20Super%20Linter/badge.svg)](https://github.com/Johanna-liu16/ICS2O-UnitX/actions)
+[![GitHub's Super Linter](https://github.com/Johanna-liu16/ICS2O-Unit-5-02-HTML/workflows/GitHub's%20Super%20Linter/badge.svg)](https://github.com/Johanna-liu16/ICS2O-Unit-5-02-HTML/actions)
 
-[![Run on Repl.it](https://repl.it/badge/github/Johanna-liu16/ICS2O-UnitX)](https://repl.it/github/Johanna-liu16/ICS2O-UnitX)
+[![Run on Repl.it](https://repl.it/badge/github/Johanna-liu16/ICS2O-Unit-5-02-HTML)](https://repl.it/github/Johanna-liu16/ICS2O-Unit-5-02-HTML)
 
-This site can be found at: [https://Johanna-liu16.github.io/ICS2O-PWA-Test/](https://Johanna-liu16.github.io/ICS2O-PWA-Test/)
+This site can be found at: [https://Johanna-liu16.github.io/ICS2O-Unit-5-02-HTML/](https://Johanna-liu16.github.io/ICS2O-Unit-5-02-HTML/)
