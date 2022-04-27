@@ -19,7 +19,7 @@ if (navigator.serviceWorker) {
  * This function compares slider with random number.
  */
 function myButtonClicked() {
-  const userInteger = prompt("Enter an integer: ")
+  const userInteger = parseInt(document.getElementById("user-integer").value);
   
   // process
   if (userInteger < 0) {
