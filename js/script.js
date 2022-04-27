@@ -24,9 +24,9 @@ function myButtonClicked() {
   // process
   if (userInteger < 0) {
     document.getElementById("answers").innerHTML =
-      "Integer is a negative number."
-  } else (userInteger > 0) {
+      "Integer is a negative number.";
+  } else {
     document.getElementById("answers").innerHTML =
-      "Integer is a positive number."
+      "Integer is a positive number.";
   }
 }
