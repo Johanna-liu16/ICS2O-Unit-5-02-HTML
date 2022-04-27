@@ -19,14 +19,14 @@ if (navigator.serviceWorker) {
  * This function compares slider with random number.
  */
 function myButtonClicked() {
-  const userInteger = parseInt(document.getElementById("user-integer").value);
-  
+  const userInteger = parseInt(document.getElementById("user-integer").value)
+
   // process
   if (userInteger < 0) {
     document.getElementById("answers").innerHTML =
-      "Integer is a negative number.";
+      "Integer is a negative number."
   } else {
     document.getElementById("answers").innerHTML =
-      "Integer is a positive number.";
+      "Integer is a positive number."
   }
 }
